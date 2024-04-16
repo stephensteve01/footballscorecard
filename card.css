@@ -1,0 +1,146 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 20px;
+  font-family: "poppins", sans-serif;
+}
+.column {
+  width: 400px;
+  height: 330px;
+  background-color: #fff;
+  border: 1px solid grey;
+  border-radius: 15px;
+  margin-top: 200px;
+  position: relative;
+
+}
+.column-header{
+  border-bottom:0 ;
+  padding: 8px 15px;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.column-header p{
+  color: red;
+  font-size: 10px;
+  background-color: pink;
+  padding: 2px 5px;
+  border-radius: 7px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.column-header img{
+  width: 37px;
+  padding: 3px 5px;
+  margin-right: 0px;
+
+} 
+.column-header div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.column-header h3{
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.icons i{
+  margin-left: 5px;
+  font-size: 15px;
+  color: #999;
+}
+.container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 15px;
+
+}
+.man-city{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.image{
+  padding: 20px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  box-shadow: 0 0 18px #777;
+}
+
+.image img{
+  height: 50px;
+  width: 50px;
+}
+.team-name h3{
+  padding-top: 20px;
+  font-size: 20px;
+}
+.result{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.result p{
+  color:#777;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+.result time{
+  color: rbg(181, 127, 127);
+}
+span{
+  font-weight: bolder;
+  color: #000000;
+}
+.result h1{
+  padding: 20px 0;
+  font-size: 50px;
+  
+}
+.result .time {
+  color: red;
+  padding: 12px 0;
+}
+.odds{
+  display: flex;
+align-items: center;
+  width: 100%;
+  padding-top: 8px;
+}
+.odds button{
+  padding: 3px 10px;
+  border: 1px solid #777;
+  font-weight: bold;
+}
+.bet-button{
+  position: relative;
+  top: 40px;
+  margin-top:0px;
+}
+.bet-button button{
+  background-color: blue;
+  color: white;
+  border-style: none;
+  padding:8px 20px;
+  border-radius: 10px;
+
+}
